@@ -462,21 +462,10 @@
             padding: 0 0 30px 30px;
             overflow: hidden;
         }
- .about-visual::before{
-    content: "";
-    border: 3px solid var(--main-dark);
-                padding: 100px;
-                position: absolute;
-                width: 545px;
-                height: 480px;
-                            border-radius: 95px 15px 98px ;
-                            opacity: 0.4;
 
-
- }
         .about-image {
             width: 100%;
-            height: 480px;
+            height: 720px;
             object-fit: cover;
             border-radius: 95px 15px 98px ;
         }
@@ -1284,7 +1273,7 @@
 
 .product-image-wrap {
     position: relative;
-    height: 285px;
+    height: 385px;
     overflow: hidden;
     background: #eee8df;
 }
@@ -1933,7 +1922,7 @@
     padding: 110px 0;
     border: 1px solid rgba(212, 192, 156, 0.22);
     border-radius: 30px;
-    background-image: url("../images/testing-bg.jpg");
+    background-image: url("../images/2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2888,7 +2877,7 @@
             rgba(68, 41, 22, 0.89) 52%,
             rgba(34, 22, 14, 0.94) 100%
         ),
-        url("../images/contact-bg.jpg");
+        url("../images/8.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
